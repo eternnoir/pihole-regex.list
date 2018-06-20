@@ -7,6 +7,4 @@ Source:
 
 ## Installation
 
-* `wget https://raw.githubusercontent.com/eternnoir/pihole-regex.list/master/regex.list`
-* `cp regex.list /etc/pihole/`
-* `service pihole-FTL restart`
+* `wget -q https://raw.githubusercontent.com/eternnoir/pihole-regex.list/master/regex.list -O /etc/pihole/regex.list && service pihole-FTL restart`
